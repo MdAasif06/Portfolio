@@ -11,14 +11,14 @@ export default function Header() {
           className="rounded-full w-32"
         />
       </div>
-      <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
+      <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo">
         Hi! I'm Md Aasif{" "}
         <Image src={assets.hand_icon} alt="hand" className="w-6" />
       </h3>
-      <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
+      <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-ovo">
         Frontend Web developer based in Patna.
       </h1>
-      <p className="max-w-2xl mx-auto font-Ovo">
+      <p className="max-w-2xl mx-auto font-ovo">
         I am frontend developer from INDIA,with 2 years of experience in
         multiple tech stack.
       </p>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { assets } from "../../assets/assets";
 import { useEffect, useRef, useState } from "react";
+
 export default function navbar() {
   const sideMenuRef = useRef<HTMLUListElement | null>(null);
   const [isScroll,setIsScroll]=useState(false);
@@ -41,19 +42,19 @@ export default function navbar() {
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8
         rounded-full px-12 py-3 ${isScroll ? '' :'bg-white shadow-sm bg-opacity-50'} `}>
           <li>
-            <a className='font-Ovo' href="#top">Home</a>
+            <a className='font-ovo' href="#top">Home</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#about">About me</a>
+            <a className="font-ovo" href="#about">About me</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#service">Services</a>
+            <a className="font-ovo" href="#service">Services</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#work">My Work</a>
+            <a className="font-ovo" href="#work">My Work</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#contact">Contact me</a>
+            <a className="font-ovo" href="#contact">Contact me</a>
           </li>
         </ul>
         <div className="flex items-center gap-4">
