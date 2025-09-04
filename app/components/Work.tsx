@@ -2,8 +2,8 @@ import { assets, workData } from "@/assets/assets";
 import Image from "next/image";
 export default function Work() {
   return (
-    <div id="work" className="w-full px-6 py-10 scroll-mt-20 md:px-[12%]">
-      <h4 className="text-center mb-2 text-lg font-ovo">Myp portfolio</h4>
+    <div id="work" className="w-full px-6 py-10 scroll-mt-15 md:px-[12%]">
+      <h4 className="text-center mb-2 text-lg font-ovo">My portfolio</h4>
       <h2 className="text-center text-4xl md:text-5xl font-ovo">My latest work</h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo px-4">
       Welcome to my development portfolio! Explore a collecion of projects
@@ -33,7 +33,7 @@ export default function Work() {
       ))}
       </div>
       <a href="" className="w-max flex items-center justify-center gap-2 text-gray-700
-      border-[0.5px] border-gray-700 rounded-full px-10 py-3 mx-auto my-20
+      border-[0.5px] border-gray-700 rounded-full px-10 py-3 mx-auto my-10
       hover:bg-red duration-500">
       show more <Image src={assets.right_arrow_bold} alt="right-arrow" className="w-4"/>
       </a>

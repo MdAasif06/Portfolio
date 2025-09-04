@@ -48,7 +48,7 @@ export default function navbar() {
             <a className="font-ovo" href="#about">About me</a>
           </li>
           <li>
-            <a className="font-ovo" href="#service">Services</a>
+            <a className="font-ovo" href="#services">Services</a>
           </li>
           <li>
             <a className="font-ovo" href="#work">My Work</a>
