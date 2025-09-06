@@ -32,7 +32,7 @@ export default function navbar() {
       flex items-center justify-between z-50 ${isScroll ? 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm':''}`}>
         <a href="/">
           <Image
-            src={assets.logo} // image must be inside /public folder
+            src={assets.logo_asif} // image must be inside /public folder
             alt="Logo"
             width={40} // required if not using fill
             height={40}

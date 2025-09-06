@@ -11,6 +11,8 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
+import logo_asif from './logo-asif1.png'
+import as_pic from "./asif_p.png"
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
@@ -51,6 +53,8 @@ export const assets = {
     mongodb,
     right_arrow_white,
     logo,
+    logo_asif,
+    as_pic,
     logo_dark,
     mail_icon,
     mail_icon_dark,

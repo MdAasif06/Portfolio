@@ -6,7 +6,7 @@ export default function Header() {
     items-center justify-center gap-4">
       <div>
         <Image
-          src={assets.profile_img}
+          src={assets.as_pic}
           alt="profil-image"
           className="rounded-full w-32"
         />

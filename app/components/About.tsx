@@ -9,7 +9,7 @@ export default function About() {
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-10">
         <div className="w-64 sm:w-80 rounded-3xl max-w-none">
           <Image
-            src={assets.user_image}
+            src={assets.as_pic}
             alt="user"
             className="w-full rounded-3xl"
           />
